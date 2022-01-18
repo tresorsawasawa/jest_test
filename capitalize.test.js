@@ -6,11 +6,11 @@ describe('Capitalize a string', () => {
     expect(capitalize('tresor')).toBe('Tresor');
   });
 
-  test('Capitalize an non aphabet char', () => {
+  test('Capitalize an empty string', () => {
     expect(() => capitalize('')).toThrow("It can't Capitalize an empty srting");
   });
 
-  test('Capitalize an empty string', () => {
+  test('Capitalize an non aphabet char', () => {
     expect(() => capitalize('6tresor4tt')).toThrow("First character is expected to be alphabet");
   });
 });
