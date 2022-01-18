@@ -14,12 +14,15 @@
 - To install **jest** testing framework  use these commands:
    ``` npm install --save-dev jest ``` if you are using `` npm `` or
    ``` yarn add --dev jest ``` if you are using `` yarn `` .
-- Then add:
-  ``` "scripts": {
-    "test": "jest",
-    "watch": "jest --watch *.js"
-  } ``` in your `` package.json `` file.
-
+- Then add this 👇👇 in your `` package.json `` file.
+  ``` 
+    "scripts": {
+      "test": "jest",
+      "watch": "jest --watch *.js"
+    }
+  ```
+ - Click [here](https://jestjs.io/docs/getting-started) to read more about **jest**
+ 
 ## Authors
 
 👤 **@Tresorsawasawa**
